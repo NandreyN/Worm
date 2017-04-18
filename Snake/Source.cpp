@@ -1,23 +1,12 @@
 #undef UNICODE
 #define MOVETIMER 1
 #include <windows.h>
-#include  <math.h>
-#include <cmath>
 #include <string>
-#include <iostream>
-#include <fstream>
-#include <sstream>
 #include <vector>
-#include <iterator>
 #include <algorithm>
-#include <ctime>
-#include <numeric>
-#include <map>
 #include <queue>
-#include <set>
 #include <time.h>
 #include <stdlib.h>
-#include <stdio.h>
 using namespace std;
 static deque<POINT> _worm; // Head of the worm is stored as 1st
 					   // By default x = -1 , y = -1 
